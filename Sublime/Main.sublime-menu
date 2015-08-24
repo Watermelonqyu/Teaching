@@ -1,0 +1,26 @@
+// Settings in here override those in "Default/Main.sublime-menu",
+// and are overridden in turn by file type specific settings.
+[
+    {
+        "caption": "Send",
+        "id": "Send",
+        "children": [
+        	{
+                "caption": "Input User Information",
+                "id": "userInfo",
+                "command": "inputuserinfo"
+            },
+            {
+                "caption": "Input Server Address",
+                "id": "serverAddress",
+                "command": "InputServerAddr"
+            },
+            {
+                "caption": "Send File to",
+                "id": "Send",
+                "command": "send"
+            }
+
+        ]
+    }
+]
